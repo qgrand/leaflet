@@ -1,4 +1,4 @@
-name: qspace_press
+﻿name: qspace_press
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -32,7 +32,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.8
 
-  # The QSpace Pages package — path dependency while developing locally.
+  # The QSpace Pages package â€” path dependency while developing locally.
   # Switch to git URL when treating qspace_pages as a published package:
   #   qspace_pages:
   #     git:
