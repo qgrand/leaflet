@@ -5,6 +5,9 @@ mod config;
 mod db;
 mod distribution;
 mod email;
+// Follow without an account (BP26100205), slice 1: the pure core, unit-tested and not routed yet.
+#[allow(dead_code)]
+mod follow;
 // Structured-list data model (BP26091902): written and unit-tested but not routed until this API
 // connects to Postgres, so it is dead code to the compiler for now.
 #[allow(dead_code)]

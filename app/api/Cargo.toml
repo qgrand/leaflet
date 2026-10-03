@@ -28,6 +28,10 @@ tracing = "0.1"
 tracing-subscriber = "0.3"
 validator = { version = "0.16", features = ["derive"] }
 uuid = { version = "1", features = ["v4", "v7", "serde"] }
+# Follow without an account (BP26100205): signed manage links and address hashes. Both are already in Cargo.lock
+# through jsonwebtoken and bcrypt; cargo only adds them to this package's dependency list.
+hmac = "0.12"
+sha2 = "0.10"
 
 [[bin]]
 name = "qspace-press-api"
